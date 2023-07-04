@@ -1,0 +1,39 @@
+body{
+      height: 200vh;
+}
+
+.container{
+    width: 550px;
+    border: 2px solid black;
+    margin: 50px auto;
+
+}
+
+.box{
+    width: 150px;
+    height:150px;
+}
+.yellow{
+    background-color: yellow;
+    position: static;
+}
+.red{
+    background-color: red;
+    position: fixed;
+    top: 10px;
+    left: 2px;
+}
+.orange{
+    background-color: orange;
+    position: sticky;
+}
+.green{
+    background-color: green;
+    position: relative;
+
+}
+.blue{
+    background-color: blue;
+    position: absolute;
+    right: 5px;
+}
